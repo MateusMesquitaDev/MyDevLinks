@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+  background: url(assets/fundo\ mesquita.png) no-repeat top center/cover;
+  transition:
+    all 0.5s,
+    border 0.3s;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  font-optical-sizing: auto;
+  font-weight: 600, 700, 400;
+  font-style: normal;
+}
+
+#container {
+  height: 712px;
+  width: 360px;
+  margin: auto;
+  margin-top: 56px;
+}
+#profile img {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+#profile p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+/* links */
+ul {
+  list-style: none;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding: 12px 0;
+  margin: 12px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1.5px solid white;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 45px;
+  font-size: 20px;
+
+  transition:background 0.3s ease, transform 0.2s ease;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+footer {
+
+  text-align: center;
+  justify-content: center;
+  padding: 26px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  
+}
