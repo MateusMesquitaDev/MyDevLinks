@@ -26,7 +26,8 @@ body {
 
 #container {
   height: 712px;
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: auto;
   margin-top: 56px;
 }
@@ -83,7 +84,9 @@ ul li:hover {
   margin-top: 45px;
   font-size: 20px;
 
-  transition:background 0.3s ease, transform 0.2s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
 }
 
 #social-links a {
@@ -92,7 +95,9 @@ ul li:hover {
   justify-content: center;
   padding: 12px;
   border-radius: 50%;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
 }
 
 #social-links a:hover {
@@ -101,11 +106,9 @@ ul li:hover {
 }
 
 footer {
-
   text-align: center;
   justify-content: center;
   padding: 26px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
-  
 }
